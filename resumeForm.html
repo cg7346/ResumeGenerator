@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Fill out necessary info then click "Save" to save your input field and "Submit" to generate your resume:</p>
+
+<form id="resume" action="/action_page.php">
+  PERSONAL INFO<br>
+  First & Last Name: <input type="text" name="name"><br>
+  Major: <input type="text" name="major"><br><br>
+
+  CONTACT INFO<br>
+  Phone Number: <input type="text" name="phoneNum"><br>
+  Email: <input type="text" name="email"><br>
+
+  <br>
+  <input type="button" onclick="myFunction()" value="Submit">
+</form>
+
+<script>
+function myFunction() {
+  document.getElementById("resume").submit();
+}
+</script>
+
+</body>
+</html>
+
